@@ -2,13 +2,6 @@ plugins {
     id "com.github.node-gradle.node" version "1.3.0"
 }
 
-grails { 
-	plugins {
-		compile project(":mod-domain")
-		compile project(":mod-mobile")
-		}
-	}
-
 node {
     version = '10.15.0' // https://nodejs.org/en/
     yarnVersion = '1.13.0' // https://yarnpkg.com/en/

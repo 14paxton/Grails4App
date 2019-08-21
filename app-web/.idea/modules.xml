@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app-web.iml" filepath="$PROJECT_DIR$/app-web.iml" group="app-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client.iml" group="app-web/client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-857331258/mod-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/-857331258/mod-domain.iml" group="app-web/mod-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-857331258/mod-domain_ast.iml" filepath="$PROJECT_DIR$/.idea/modules/-857331258/mod-domain_ast.iml" group="app-web/mod-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-857331258/mod-domain_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-857331258/mod-domain_integrationTest.iml" group="app-web/mod-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-857331258/mod-domain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-857331258/mod-domain_main.iml" group="app-web/mod-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-857331258/mod-domain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-857331258/mod-domain_test.iml" group="app-web/mod-domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server.iml" group="app-web/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_integrationTest.iml" group="app-web/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" group="app-web/server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" group="app-web/server" />
+    </modules>
+  </component>
+</project>
