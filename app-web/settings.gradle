@@ -1,1 +1,6 @@
 include 'client', 'server'
+rootProject.name = 'app-web'
+include ':mod-domain'
+project(':mod-domain').projectDir = new File(settingsDir, '../mod-domain')
+
+
