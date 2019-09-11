@@ -36,6 +36,7 @@ configurations {
 grails {
     plugins {
         compile project(":mod-domain")
+        compile project(":mod-mobile")
     }
 }
 
