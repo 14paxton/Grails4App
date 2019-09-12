@@ -1,0 +1,16 @@
+<plugin name='modDomain' version='SNAPSHOT' grailsVersion='4.0.0 &gt; *'>
+  <type>mod.domain.ModDomainGrailsPlugin</type>
+  <grailsVersion>4.0.0 &gt; *</grailsVersion>
+  <authorEmail></authorEmail>
+  <pluginExcludes>[grails-app/views/error.gsp]</pluginExcludes>
+  <author>Your name</author>
+  <documentation>http://grails.org/plugin/mod-domain</documentation>
+  <name>mod-domain</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <title>Mod Domain</title>
+  <version />
+  <resources>
+    <resource>mod.domain.Application</resource>
+  </resources>
+</plugin>

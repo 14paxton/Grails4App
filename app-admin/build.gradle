@@ -89,6 +89,12 @@ dependencies {
 
     //spring Security
     compile 'org.grails.plugins:spring-security-core:4.0.0.RC2'
+    compile 'org.grails.plugins:spring-security-ui:4.0.0.M1'
+    /*compile 'org.grails.plugins:spring-security-rest:3.0.0.RC1'
+    compile 'org.grails.plugins:spring-security-acl:4.0.0.M2'*/
+
+    //test data
+    compile 'org.grails.plugins:build-test-data:3.3.1'
 	
 
 }
