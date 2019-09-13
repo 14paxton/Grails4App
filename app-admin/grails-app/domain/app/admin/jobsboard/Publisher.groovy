@@ -20,4 +20,14 @@ class Publisher {
          location nullable: false, blank: false
          logo size: 0..1024 * 1024 * 5, maxSize: 1024 * 1024 * 5, nullable: false // 5M
          }
+
+    static mapping = {
+        cache true
+    }
+
+    @Override
+    String toString() {
+        return name
+    }
+
 }

@@ -54,10 +54,13 @@
     <section class="row colset-2-its">
         <h1>Welcome to Grails</h1>
 
+        <div><s:top type="publishers"/></div>
+        <div><s:top type="tags"/></div>
+        <div><s:top type="types"/></div>
         <p>
-            Congratulations <sec:loggedInUserInfo field='username'/>, you have successfully log\
-            ged in Administration Application!
+            Congratulations <sec:loggedInUserInfo field='username'/>, you have successfully loged in Administration Application!
         </p>
+
 
         <p>
             <sec:ifAllGranted roles='ROLE_ADMIN'>

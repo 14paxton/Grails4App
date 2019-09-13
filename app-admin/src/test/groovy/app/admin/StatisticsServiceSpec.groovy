@@ -52,4 +52,5 @@ class StatisticsServiceSpec extends Specification implements AutowiredTest, Data
         publishers.size() == 1
         pair?.value == 2
     }
+
 }

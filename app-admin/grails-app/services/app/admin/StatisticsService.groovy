@@ -6,17 +6,18 @@ import grails.gorm.transactions.Transactional
 @Transactional
 class StatisticsService {
 
-    def serviceMethod() {
-
-    }
-
     def getTopPublishers() {
 
-         Job.list().countBy { it.publisher }
+        Job.list().countBy { it.publisher}
+    }
 
-         }
+    def getTopTypes() {
+        Job.list().countBy { it.type }
+    }
 
-
+    def getTopTags() {
+        Job.list().countBy { it.tags }
+    }
 
 
 }

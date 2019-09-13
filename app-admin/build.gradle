@@ -93,7 +93,7 @@ dependencies {
     /*compile 'org.grails.plugins:spring-security-rest:3.0.0.RC1'
     compile 'org.grails.plugins:spring-security-acl:4.0.0.M2'*/
 
-    //test data
+    //test data enables you
     compile 'org.grails.plugins:build-test-data:3.3.1'
 	
 
