@@ -87,6 +87,10 @@ dependencies {
     //mysql
     runtime 'mysql:mysql-connector-java:8.0.16'
 
+    //caching
+    compile "org.grails.plugins:cache"
+    compile "org.hibernate:hibernate-ehcache:5.4.4.Final"
+
     //spring Security
     compile 'org.grails.plugins:spring-security-core:4.0.0.RC2'
     compile 'org.grails.plugins:spring-security-ui:4.0.0.M1'

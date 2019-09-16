@@ -37,12 +37,9 @@ class Job {
 
     static mapping = {
         cache true
+        applyInstructions type: 'text'
     }
 
-    @Override
-    String toString() {
-        return name
-    }
 
 
 }

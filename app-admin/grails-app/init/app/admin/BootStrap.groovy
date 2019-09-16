@@ -25,7 +25,6 @@ class BootStrap {
 
 
 
-
     }
     def destroy = {
     }
@@ -64,7 +63,10 @@ class BootStrap {
 
             types.each {
                 def type = new Type(name: it, description: "${it.replace('-', ' ')} job")
-                type.save(flash: true, failOnError: true)
+                Type.withTransaction {
+                    type.save(flush: true, failOnError: true)
+                }
+
             }
         }
     }
@@ -74,7 +76,10 @@ class BootStrap {
             def defaultTags = ['Mobile', 'Engineer', 'Dev', 'Remote', 'Senior']
             defaultTags.each {
                 def tag = new Tag(name: it)
-                tag.save(flash: true, failOnError: true)
+                Tag.withTransaction {
+                    tag.save(flush: true, failOnError: true)
+                }
+
                 log.info "tag ${tag.id} saved \n"
             }
         }
@@ -91,7 +96,10 @@ class BootStrap {
                     twitterId: "twitter",
                     logo: logo?:[]
             )
-            publisher.save(flash: true, failOnError: true)
+            Publisher.withTransaction {
+                publisher.save(flush: true, failOnError: true)
+            }
+
 
            logo = utilityService.uriToImage("https://img.huffingtonpost.com/asset/5c4a38003b000014026892dd.jpeg?cache=OkeANprxgH&ops=crop_228_193_3080_2395%2Cscalefit_720_noupscale")
             publisher = new Publisher(
@@ -102,7 +110,10 @@ class BootStrap {
                     twitterId: "stackoverflow",
                     logo: logo?:[]
             )
-            publisher.save(flash: true, failOnError: true)
+            Publisher.withTransaction{
+                publisher.save(flush: true, failOnError: true)
+            }
+
         }
     }
 
@@ -133,7 +144,11 @@ class BootStrap {
                     expirationDate: exDate,
                     tags: tags
             )
-            job.save(flash: true, failOnError: true)
+
+            Job.withTransaction {
+                job.save(flush: true, failOnError: true)
+            }
+
         }
     }
 }
