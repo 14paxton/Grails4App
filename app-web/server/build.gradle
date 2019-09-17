@@ -75,6 +75,8 @@ dependencies {
     testCompile "org.mockito:mockito-core"
     testCompile "io.micronaut:micronaut-http-client"
     testCompile "org.grails:grails-web-testing-support"
+
+    compile project(':mod-domain')
 }
 
 bootRun {

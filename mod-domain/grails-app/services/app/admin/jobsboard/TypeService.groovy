@@ -1,5 +1,6 @@
 package app.admin.jobsboard
 
+
 import grails.gorm.services.Service
 
 @Service(Type)

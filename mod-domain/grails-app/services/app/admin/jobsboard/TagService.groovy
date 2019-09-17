@@ -2,17 +2,17 @@ package app.admin.jobsboard
 
 import grails.gorm.services.Service
 
-@Service(Job)
-interface JobService {
+@Service(Tag)
+interface TagService {
 
-    Job get(Serializable id)
+    Tag get(Serializable id)
 
-    List<Job> list(Map args)
+    List<Tag> list(Map args)
 
     Long count()
 
     void delete(Serializable id)
 
-    Job save(Job job)
+    Tag save(Tag tag)
 
 }
