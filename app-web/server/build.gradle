@@ -33,12 +33,12 @@ configurations {
     }
 }
 
-grails {
+/*grails {
     plugins {
         compile project(":mod-domain")
         compile project(":mod-mobile")
     }
-}
+}*/
 
 
 dependencies {
@@ -76,7 +76,8 @@ dependencies {
     testCompile "io.micronaut:micronaut-http-client"
     testCompile "org.grails:grails-web-testing-support"
 
-    compile project(':mod-domain')
+   /* compile project(':mod-domain')
+    compile project(":mod-mobile")*/
 }
 
 bootRun {
