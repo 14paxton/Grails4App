@@ -33,12 +33,12 @@ configurations {
 }
 
 
-/*grails {
+grails {
     plugins {
         compile project(":mod-domain")
         compile project(":mod-mobile")
     }
-}*/
+}
 
 dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
@@ -75,8 +75,8 @@ dependencies {
     testCompile "org.grails:grails-web-testing-support"
 
 
-    /* compile project(':mod-domain')
-     compile project(":mod-mobile")*/
+     compile project(':mod-domain')
+     compile project(":mod-mobile")
 
 
 }

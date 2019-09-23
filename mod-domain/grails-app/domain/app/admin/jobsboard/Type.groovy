@@ -1,5 +1,7 @@
 package app.admin.jobsboard
+import grails.rest.Resource
 
+@Resource(uri ='/type')
 class Type {
 
     String name

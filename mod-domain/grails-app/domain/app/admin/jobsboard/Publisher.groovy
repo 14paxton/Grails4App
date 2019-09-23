@@ -1,5 +1,7 @@
 package app.admin.jobsboard
+import grails.rest.Resource
 
+@Resource(uri ='/publisher')
 class Publisher {
     String name
 
